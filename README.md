@@ -47,8 +47,6 @@ An interactive Streamlit dashboard (`myapp.py`) provides three views:
 - **Model Comparison**: trains all four models and displays MAE/RMSE/R² side by side, plus a residual plot for the best model
 - **Make a Prediction**: lets a user input feature values and get a real-time usage rate prediction from any of the trained models
 
-**Known issue**: the XGBoost model definition in `myapp.py` currently has a nesting bug (an `XGBRegressor` passed as a parameter to another `XGBRegressor`) that will raise an error if "Train Models" is clicked on the Model Comparison page. The notebook's XGBoost implementation is unaffected.
-
 ## Tech Stack
 
 Python, scikit-learn, XGBoost, Streamlit, pandas, matplotlib, seaborn
