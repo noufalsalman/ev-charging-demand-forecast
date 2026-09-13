@@ -53,6 +53,7 @@ Python, scikit-learn, XGBoost, Streamlit, pandas, matplotlib, seaborn
 
 ## Project Structure
 
+`​`​`
 ev-charging-demand-forecast/
 ├── notebook/
 │   └── ev_charging_demand_forecast.ipynb
@@ -63,6 +64,7 @@ ev-charging-demand-forecast/
 ├── presentation/
 │   └── ev-charging-demand-forecast-slides.pdf
 └── README.md
+`​`​`
 
 ## Team
 
